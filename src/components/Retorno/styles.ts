@@ -16,4 +16,5 @@ export const Voltar = styled(Link)`
   align-items: center;
   font-size: 40px;
   text-decoration: none;
+  cursor: pointer;
 `

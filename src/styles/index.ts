@@ -18,6 +18,12 @@ export const Container = styled.div`
   max-width: 1024px;
   margin: 0 auto;
 `
+export const MainContainer = styled.header`
+  margin-top: 2rem;
+  padding: 2rem;
+  border-radius: 8px;
+`
+
 export const Input = styled.input`
   padding: 8px 12px;
   border: 1px solid ${vars.bgDark};
@@ -35,11 +41,18 @@ export const Input = styled.input`
     outline: none;
   }
 `
+export const ActionsContainer = styled.div`
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.5rem;
+`
 
 export const Botao = styled.button`
   padding: 8px 12px;
   background-color: ${vars.bgDark};
   color: ${vars.fontLight};
   border-radius: 0.5rem;
+  cursor: pointer;
 `
 export default EstiloGlobal

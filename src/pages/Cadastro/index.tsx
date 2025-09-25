@@ -1,9 +1,10 @@
 import Retorno from '../../components/Retorno'
+import CadastrarContato from '../../containers/FormularioCadastro'
 
 const Cadastro = () => {
   return (
     <>
-      <h1>Cadastro</h1>
+      <CadastrarContato />
       <Retorno />
     </>
   )
